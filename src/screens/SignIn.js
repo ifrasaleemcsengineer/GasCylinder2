@@ -7,7 +7,7 @@ import {
     ActivityIndicator,
   } from "react-native";
   import React, { useState } from "react";
-  import Logo from "../../assets/images/logo_1.png";
+  import Logo from "../../assets/images/logo.bmp";
   import CustomButton from "../components/CustomButton";
   import CustomInput from "../components/CustomInput";
   import Home from "./Home";
@@ -182,7 +182,7 @@ import { getActionFromState } from "@react-navigation/native";
           >
             <Image
               source={Logo}
-              style={[styles.logo, { height: height * 0.3 }]}
+              style={[styles.logo, { height: height * 0.3},{ marginRight: 50}]}
               resizeMode="contain"
             />
   
